@@ -1,0 +1,5 @@
+a = int(input('Insert width: '))
+b = int(input('Insert height: '))
+c = int(input('Insert length: '))
+print(f'V: {a*b*c}')
+print(f'S: {2*(a*b+a*c+b*c)}')
